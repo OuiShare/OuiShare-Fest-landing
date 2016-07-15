@@ -1,0 +1,61 @@
+/* Font Naiv */
+@font-face {
+  font-family: "naiv_normal";
+  src: url("../../assets/fonts/naiv/Naiv-Normal.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "naiv_normal_thin";
+  src: url("../../assets/fonts/naiv/Naiv-Thin.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.photo_bg {
+    background: url(../../assets/photo-landing.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    text-align: center;
+    background-attachment: scroll;
+    height: 100%;
+    width:100%;
+    padding-top: 12%;
+    padding-bottom: 9%;
+    margin-bottom: 7%;
+}
+
+h2,
+h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#arrow {
+	position: absolute;
+    bottom: 1.5em;
+    text-align: center;
+    margin: 0;
+    
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+#arrow img {
+	width: 80px;
+}
+
+#discover iframe {
+	width: 100%;
+	height: 200px;
+}
+
+img {
+	max-width: 100%;
+}
