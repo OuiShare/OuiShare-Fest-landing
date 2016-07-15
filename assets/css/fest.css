@@ -58,17 +58,16 @@ h3 {
 	height: 200px;
 }
 
-#events img {
-	/*height: 18em;*/
-	margin-bottom: 2em;
-}
+
 #events .avatar {
 	width: 100%;
-	height: 200px;
+	height: 175px;
 	background-size: cover;
 	background-position: center center;
+	margin-bottom: 2em;
 
 }
+
 .avatar-title h3 {
 	color:white;
 	/*margin: 0 30px;*/
@@ -107,6 +106,15 @@ h3 {
     -ms-transform: scale(1);
     transform: scale(1);
     opacity: 0.95;
+}
+
+@media (max-width: 991px) {
+	#events .avatar {
+		height:250px;
+	}
+	.avatar-title {
+		width: 97%;
+	}
 }
 img {
 	max-width: 100%;
