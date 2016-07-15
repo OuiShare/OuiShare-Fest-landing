@@ -57,6 +57,10 @@ h3 {
 	height: 200px;
 }
 
+#events img {
+	/*height: 18em;*/
+	margin-bottom: 2em;
+}
 img {
 	max-width: 100%;
 }
