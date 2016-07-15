@@ -60,3 +60,7 @@ h3 {
 img {
 	max-width: 100%;
 }
+
+.navbar .navbar-header .navbar-brand .header-logo {
+	top: -8px;
+}
