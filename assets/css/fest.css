@@ -27,12 +27,20 @@
     padding-top: 12%;
     padding-bottom: 9%;
     margin-bottom: 0;
+    background-blend-mode: exclusion;
 }
 
 h2,
 h3 {
   font-size: 40px;
   text-transform: uppercase;
+}
+hr.blue {
+    margin-top: 20px;
+    margin-bottom: 4em;
+    width: 120px;
+    border: 0;
+    border-top: 4px solid #001E60; 
 }
 
 #arrow {
@@ -79,10 +87,7 @@ h3 {
 .avatar-title {
 	position: absolute;
     background: #001E60;
-    background: -webkit-linear-gradient(left, #001E60 , white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #001E60, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #001E60, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #001E60 , white); /* Standard syntax */
+
     width: 93%;
     height: inherit;
     /*border-radius: 50%;*/
@@ -105,7 +110,7 @@ h3 {
     -o-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    opacity: 0.95;
+    opacity: 1;
 }
 
 @media (max-width: 991px) {
