@@ -18,12 +18,12 @@
     background: url(../../assets/photo-landing.jpg) no-repeat;
     background-color: #001E60;
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 100% 40%;
     text-align: center;
     background-attachment: scroll;
     height: 100%;
     width:100%;
-    min-height: 1000px;
+    min-height: 900px;
     padding-top: 12%;
     padding-bottom: 9%;
     margin-bottom: 0;
