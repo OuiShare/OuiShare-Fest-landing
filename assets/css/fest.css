@@ -15,7 +15,7 @@
 
 
 .photo_bg {
-    background: url(../../assets/photo-landing-party.jpg) no-repeat;
+    background: url(../../assets/photo-landing.jpg) no-repeat;
     background-color: #001E60;
     background-size: cover;
     background-position: 0% 0%;
@@ -77,21 +77,24 @@ hr.blue {
 }
 
 .avatar-title h3 {
+	font-family: "Open Sans";
+	font-size: 2em;
+	font-weight: bold;
 	color:white;
 	/*margin: 0 30px;*/
-    padding: 65px 0 0 0;
+    padding: 0.8em 0.1em;
+    line-height: 1.5em;
 }
 #events a {
 	text-decoration: none;
 }
 .avatar-title {
-	position: absolute;
-    background: #001E60;
-
-    width: 93%;
+	/*position: absolute;*/
+    width: inherit;
     height: inherit;
+    text-align:center;
     /*border-radius: 50%;*/
-    opacity: 0;
+/*    opacity: 0;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -102,9 +105,10 @@ hr.blue {
     -o-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;*/
 }
 .avatar:hover .avatar-title {
+	background: #001E60;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -117,8 +121,9 @@ hr.blue {
 	#events .avatar {
 		height:250px;
 	}
-	.avatar-title {
-		width: 97%;
+	.avatar-title h3 {
+		font-size: 3.3em;
+		padding: 0.6em 0.1em;
 	}
 }
 img {
