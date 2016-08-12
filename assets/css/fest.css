@@ -202,3 +202,7 @@ img {
     margin-left: 0;
     float: left;
 }
+
+#mc_embed_signup input.email {
+    min-width: 100%;
+}
