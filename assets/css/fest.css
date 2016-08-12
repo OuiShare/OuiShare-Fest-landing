@@ -155,6 +155,9 @@ hr.blue {
 		font-size: 3.3em;
 		padding: 0.6em 1.4em;
 	}
+    .btn-footer {
+        margin: 1em 0 3em;
+    }
 }
 img {
 	max-width: 100%;
@@ -189,5 +192,17 @@ img {
 }
 
 
+#f label {
+    color:white;
+}
+.form-control-footer {
+    width: 100%;
+}
+.submit-email-button-footer {
+    margin-left: 0;
+    float: left;
+}
 
-
+#mc_embed_signup input.email {
+    width: 100% !important;
+}
