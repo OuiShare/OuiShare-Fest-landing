@@ -204,5 +204,5 @@ img {
 }
 
 #mc_embed_signup input.email {
-    width: 100%;
+    width: 100% !important;
 }
